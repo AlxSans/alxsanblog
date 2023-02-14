@@ -1,0 +1,32 @@
+/*MAIN CSS*/
+:root{
+	--primary-color: #1F74BF;
+	--dark-color: #0A2740;
+	--secondary-color: #F25B0F;
+}
+
+.blog-container{
+	max-width: 900px;
+}
+.list-style-none{
+	list-style: none;
+}
+.nav-bar ul li{
+	font-size: 11px;
+}
+.nav-bar ul #logo-blog{
+	color: var(--primary-color);
+	font-size: 20px;
+}
+
+/*--------------------
+//////  Support //////
+--------------------*/
+/*Text*/
+.uppercase{
+	text-transform: uppercase;
+}
+/*Cursor*/
+.cursor-pointer{
+	cursor: pointer;
+}
